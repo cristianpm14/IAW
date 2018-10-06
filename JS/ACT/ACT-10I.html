@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ACT-10</title>
+</head>
+<body>
+    <script>
+        var n1=1;
+        d=0;
+        par=0;
+        impar=0;
+        while (n1<=5) {
+            n2=prompt("Numero: "+n1);
+            n1=n1+1;
+            d=parseInt(n2)%2;
+
+            if (d==0) {
+                x=document.write("El numero "+n2+" es par");
+                par=par+1;
+            }
+            else
+                x=document.write("El numero " +n2+" es impar");
+                document.write('<br>');
+                impar=impar+1
+        }
+        document.write("Total de numeros pares: "+par);
+        document.write("<br>")
+        document.write("Total de numeros impares: "+impar);
+    </script>
+</body>
+</html>

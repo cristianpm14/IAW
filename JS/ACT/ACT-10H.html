@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ACT-10</title>
+</head>
+<body>
+    <script>
+        var s=1;
+        var d=1;
+        var suma1=0;
+        var suma2=0;
+        while (s <=3){
+            a=prompt("lista 1" +"numero "+s,"");
+            s=s+1;
+            suma1=parseInt(suma1)+parseInt(a);
+        }
+        while (d <=3){
+            b=prompt("lista 2 "+"numero "+d,"");
+            d=d+1;
+            suma2=parseInt(suma2)+parseInt(b);
+        }
+        if (suma1 > suma2) {
+            document.write("Suma de lista 1 "+suma1);
+        }
+        else{
+            document.write("Suma de lista 2: "+suma2);
+        }
+    </script>
+</body>
+</html>

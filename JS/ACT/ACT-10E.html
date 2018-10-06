@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ACT-10</title>
+</head>
+<body>
+    <script>
+        var n1=1;
+        apro=0;
+        sus=0;
+        while (n1<=10) {
+            n2=prompt("Entar nota "+n1,"");
+            n1=n1+1;
+            if (parseInt(n2)>=5){
+                x="Nota: "+n2+" Has aprobado";
+                apro++;
+
+            }
+            else if (n2<5){
+                x="Nota: "+n2+" Has suspendido";
+                sus++;
+
+            }
+            document.write(x);
+            document.write("<br>")
+        }
+        document.write('<br>');
+        document.write('Total aprobados: '+apro);
+        document.write('<br>');
+        document.write('Total suspendidos: '+sus);
+    </script>
+</body>
+</html>
