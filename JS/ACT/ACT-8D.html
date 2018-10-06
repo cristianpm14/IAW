@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ACT-8</title>
+</head>
+<body>
+    <script>
+        var N1;
+        var N2;
+        var IN1;
+        var IN2;
+        N1=prompt("Sueldo:","");
+        N2=prompt("Años:","");
+        if (parseInt(N1)<500 && parseInt(N2)>=10){
+            IN1=N1*1.2;
+            document.write("Saldo del proximo año"+" "+IN1);
+        }
+        else if (parseInt(N1)<500 && parseInt(N2)<10){
+            IN2=N1*1.05;
+            document.write("Saldo del proximo año"+" "+IN2)
+        }
+        else if (parseInt(N1)>500){
+            document.write("No hay incremento del sueldo")
+        }
+    </script>
+</body>
+</html>

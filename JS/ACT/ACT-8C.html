@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ACT-8</title>
+</head>
+<body>
+    <script>
+        var x;
+        var y;
+        x=prompt("Escribe una coordenada:","");
+        y=prompt("Escribe una coordenada:","");
+        if (parseInt(x)>0 && parseInt(y)>0){
+            document.write("First Quadrant")
+        }
+        else if (parseInt(x)<0 && parseInt(y)>0){
+            document.write("Second Quadrant")
+        }
+        else if (parseInt(x)<0 && parseInt(y)<0){
+            document.write("Third Quadrant")
+        }
+        else if (parseInt(x)>0 && parseInt(y)<0){
+            document.write("Fourth Quadrant")
+        }
+    </script>
+</body>
+</html>
