@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-11</title>
+</head>
+<body>
+    <script>
+        var sexo=0;
+        var fe=0;
+        var ma=0;
+        var ma2=0;
+        var per=0;
+        do {
+            ID = prompt("Ingrese ID ", "");
+            edad = prompt("Ingrese edad ", "");
+            sexo = prompt("Ingrese sexo ", "");
+            per = per + 1;
+            if (sexo=='f'){
+                fe=fe+1;
+            }
+            else if (sexo=='m'&&edad<18||edad>65){
+                ma=ma+1;
+            }
+            else if (sexo=='m'&&edad>=18||edad<=65){
+                ma2=ma2+1;
+            }
+        } while (ID != 0) ;
+        mas=parseInt(ma)+parseInt(ma2);
+        document.write("Hay "+fe+" mujer/es");
+        document.write("<br>");
+        document.write("Hay "+mas+" hombro/es");
+        document.write("<br>");
+        document.write("Hay "+ma2+" hombres entre 18 y 65 años");
+        document.write("<br>");
+        document.write("Hay "+per+" personas");
+    </script>
+</body>
+</html>
