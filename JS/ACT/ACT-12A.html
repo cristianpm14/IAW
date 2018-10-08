@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-12</title>
+</head>
+<body>
+    <script>
+        var T=1;
+        var B=0;
+        var H=0;
+        var count=0;
+        for(T=1;T<=3;T++) {
+            B=prompt("Base del triangulo: "+T,"0");
+            H=prompt("Altura del triangulo: "+T,"0");
+            var area=(parseInt(B)*parseInt(H))/2;
+            document.write("Numero del triangulo "+T+" base "+B+" y altura "+H);
+            document.write("<br>");
+            document.write('numero del triangulo '+T+' area '+area);
+            document.write('<br>');
+            document.write('<br>');
+
+            if (area>=12)
+            {
+                count=count+1;
+            }
+        }
+        document.write("Triangulos "+count+" con area mayor a 12");
+    </script>
+</body>
+</html>

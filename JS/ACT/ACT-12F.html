@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-12</title>
+</head>
+<body>
+    <script>
+        var i;
+        var num;
+        var po=parseInt(0);
+        var ne=parseInt(0);
+        var im=parseInt(0);
+        var sum=parseInt(0);
+        for (i=1; i <= 10;i++){
+            num=parseInt(prompt("Numero:",""));
+            if(num>0){
+                po++;
+            }else if(num<0){
+                ne++;
+            }
+            if((num % 2) == 0){
+                sum=sum+num;
+            }else{
+                im++;
+            }
+        }
+        document.write("Hay " + po + " numeros positivos ");
+        document.write("<br>");
+        document.write("Hay " + ne + " numeros negativos ");
+        document.write("<br>");
+        document.write("Hay " + im + " numeros impares ");
+        document.write("<br>");
+        document.write("Suma de los numeros pares: " + sum);
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-12</title>
+</head>
+<body>
+    <script>
+        var i;
+        var n;
+        var m;
+        var sum=parseInt(0);
+        var MA=parseInt(0);
+        var MB=parseInt(0);
+        var MC=parseInt(0);
+        for (i=1; i <= 5;i++){
+            n=parseInt(prompt("Clase A: Nota del alumno numero: " + i + " ",""));
+            sum=sum+n;
+        }
+        MA=sum/5;
+        sum=0
+        for (i=1; i <= 6;i++){
+            n=parseInt(prompt("Clase B: Nota del alumno numero: " + i + " ",""));
+            sum=sum+n;
+        }
+        MB=sum/6;
+        sum=0
+        for (i=1; i <= 11;i++){
+            n=parseInt(prompt("Clase C: Nota del alumno numero: " + i + " ",""));
+            sum=sum+n;
+        }
+        MC=sum/11;
+        if ((MA>MB) && (MA>MC)){
+            m="Clase A"
+        }
+        else if ((MB>MA) && (MB>MC)){
+            m="Clase B"
+        }
+        else {
+            m="Clase C"
+        }
+        document.write("Clase A tiene una media de  " + MA + ". ");
+        document.write("<br>");
+        document.write("Clase B tiene una media de  " + MB + ". ");
+        document.write("<br>");
+        document.write("Clase C tiene una media de  " + MC + ". ");
+        document.write("<br>");
+        document.write("Tiene mas media la "+m);
+    </script>
+</body>
+</html>

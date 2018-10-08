@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ACT-12</title>
+</head>
+<body>
+    <script>
+        var T;
+        var M;
+        var EQ=0;
+        var I=0;
+        var ES=0;
+        for (T=1;T<=4;T++){
+            L1=prompt("Un lado del triangulo: "+T+"","");
+            L2=prompt("Un lado del triangulo: "+T+"","");
+            L3=prompt("Un lado del triangulo: "+T+"","");
+            if ((L1==L2) && (L1==L3)){
+                EQ++;
+            }
+            else if ((L1==L2) || (L1==L3) || (L2==L3)){
+                I++;
+            }
+            else if ((L1!=L2) && (L1!=L3) && (L2!=L3)){
+                ES++;
+            }
+        }
+        if ((EQ>I) && (EQ>ES)){
+            M="Equilatero";
+        }
+        else if ((I>EQ) && (I>ES)){
+            M="Isosceles"
+        }
+        else {
+            M="Escaleno";
+        }
+        document.write("Tenemos "+EQ+" triangulos equilateros");
+        document.write("<br>");
+        document.write("Tenemos "+ES+" triangulos escalenos");
+        document.write("<br>");
+        document.write("Tenemos "+I+" triangulos isosceles");
+        document.write("<br>");
+        document.write("Se repite mas el " + M);
+    </script>
+</body>
+</html>
