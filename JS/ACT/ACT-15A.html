@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-15</title>
+</head>
+<body>
+    <script>
+        var mes;
+        data=new Date();
+        mes= parseInt(data.getMonth());
+        if (mes<=2)
+        {
+            res="El mes "+mes+" esta en el primer trimestre";
+        }
+
+        else if (mes>=3 && mes<=5)
+        {
+            res="El mes "+mes+" esta en el segundo trimestre";
+        }
+
+        else if (mes>=6 && mes<=8)
+        {
+            res="El mes "+mes+" esta en el tercer trimestre";
+        }
+        else if (mes>=9 && mes<=11)
+        {
+            res="El mes "+mes+" esta en el quarto trimestre";
+        }
+        else
+            res="Ninguno";
+        document.write(res);
+    </script>
+</body>
+</html>

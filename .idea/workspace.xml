@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f40981a-2560-42c4-bece-f0658efb959c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/ACT/ACT-14A.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/ACT/ACT-15A.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4f40981a-2560-42c4-bece-f0658efb959c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -40,12 +36,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="9970" />
+          <entry key="html" value="10022" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="9970" />
+          <entry key="HTML" value="10022" />
         </counts>
       </usages-collector>
     </session>
@@ -106,20 +102,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-14A.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="374">
+              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-15A.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -183,8 +179,8 @@
         <option value="$PROJECT_DIR$/JS/ACT/ACT-13D.html" />
         <option value="$PROJECT_DIR$/JS/ACT/ACT-13E.html" />
         <option value="$PROJECT_DIR$/JS/ACT/ACT-13F.html" />
-        <option value="$PROJECT_DIR$/JS/ACT/ACT-15A.html" />
         <option value="$PROJECT_DIR$/JS/ACT/ACT-14A.html" />
+        <option value="$PROJECT_DIR$/JS/ACT/ACT-15A.html" />
       </list>
     </option>
   </component>
@@ -268,12 +264,12 @@
       <workItem from="1539029867975" duration="10101000" />
       <workItem from="1539099470229" duration="7009000" />
       <workItem from="1539275404854" duration="4000" />
-      <workItem from="1539671859180" duration="8514000" />
+      <workItem from="1539671859180" duration="9514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65300000" />
+    <option name="totallyTimeSpent" value="66300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -624,17 +620,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-15A.html">
+    <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-14A.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="374">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-14A.html">
+    <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-15A.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
