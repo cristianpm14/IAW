@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-16</title>
+</head>
+<body>
+    <script>
+        n=parseInt(prompt('Entra Vector: ',''));
+        var m1=new Array(n);
+        m1[0]=parseInt(prompt('Primera posicion: ',''));
+        m1[1]=parseInt(prompt('Segunda posicion: ',''));
+        var k1=m1[0];
+        var k2=m1[1];
+        var x=0;
+        var sum=0;
+        for (x=2; x<n; x++) {
+            if (x%2==0) {
+                m1[x]=k1
+            }
+            else if (x%2==1) {
+                m1[x]=k2
+            }
+        }
+        for (x=0; x<n; x++) {
+            sum=parseInt(sum)+parseInt(m1[x])
+        }
+        document.write('Array es '+m1);
+        document.write('<br>');
+        document.write('Suma: '+sum);
+    </script>
+</body>
+</html>
