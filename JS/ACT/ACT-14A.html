@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-14</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function addition(value1,value2) {
+            this.value1=value1;
+            this.value2=value2;
+            this.loadvalue1=loadvalue1;
+            this.loadvalue2=loadvalue2;
+            this.result=result;
+        }
+        function loadvalue1() {
+            return this.value1;
+        }
+        function loadvalue2() {
+            return this.value2;
+        }
+        function result() {
+            return this.value1+this.value2;
+        }
+        var a1;
+        a1=new addition(15,30);
+        var a2;
+        a2=new addition(20,40);
+        document.write(a1.loadvalue1());
+        document.write("<br>");
+        document.write(a1.loadvalue2());
+        document.write("<br>");
+        document.write(a1.result());
+        document.write("<br>");
+        document.write(a2.loadvalue1());
+        document.write("<br>");
+        document.write(a2.loadvalue2());
+        document.write("<br>");
+        document.write(a2.result());
+
+    </script>
+</body>
+</html>
