@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping</title>
+    <script>
+        function printlist() {
+            var txt="";
+            for (var i=0; i<llistacompra.length; i++){
+                txt = txt + "<li>" + llistacompra[i] + "</li>";
+            }
+            var u = document.getElementById("llista");
+            u.innerHTML = txt;
+        }
+        function unshift() {
+            var nou = document.getElementById("item").value;
+            llistacompra.unshift(nou);
+            printlist();
+        }
+        function push() {
+            var final = document.getElementById("item").value;
+            llistacompra.push(final);
+            printlist();
+        }
+        function shift() {
+            llistacompra.shift();
+            printlist();
+        }
+        function pop() {
+            llistacompra.pop();
+            printlist();
+        }
+        function sort() {
+            llistacompra.sort();
+            printlist();
+        }
+        function desc() {
+            llistacompra.sort();
+            llistacompra.reverse();
+            printlist();
+        }
+        function hay(element) {
+            var p = llistacompra.indexOf(element);
+            if (p!=-1){
+                alert("La palabra "+element+" esta en la posicion: "+ p);
+            }
+            else {
+                alert("No esta la palabra");
+            }
+        }
+        function mayusculas() {
+            llistacompra.mayu();
+            printlist();
+        }
+        function minusculas() {
+            llistacompra.minu();
+            printlist();
+        }
+    </script>
+</head>
+<body>
+    <h3>shopping list</h3>
+    <ul id="llista">
+    </ul>
+    <hr/>
+     ITEM: <input type="text" id="item"/><br/><br/>
+    <button onclick="unshift()">unshift</button>
+    <button onclick="push()">push</button>
+    <button onclick="shift()">shift</button>
+    <button onclick="pop()">pop</button>
+    <button onclick="sort()">sort</button>
+    <button onclick="desc()">sort-des</button>
+    <button onclick="hay('POTATOES')">Hay potatoes?</button>
+    <button onclick="mayusculas()">mayusculas</button>
+    <button onclick="minusculas()">minusculas</button>
+    <script>
+        var llistacompra = new Array();
+        llistacompra[0]="POTATOES";
+        llistacompra[1]="MILK";
+        printlist();
+        Array.prototype.mayu= function () {
+            for (i=0;i<this.length;i++){
+                this[i]=this[i].toUpperCase();
+            }
+        }
+        Array.prototype.minu= function () {
+            for (as=0;as<this.length;as++){
+                this[as]=this[as].toLowerCase();
+            }
+        }
+    </script>
+</body>
+</html>
