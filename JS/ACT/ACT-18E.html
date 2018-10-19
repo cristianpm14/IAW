@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-18</title>
+</head>
+<body>
+    <script>
+        var n1=prompt("Entra palabra:","");
+        var length_half=parseInt(n1.length)/2;
+        var slicer=n1.slice(0, length_half);
+        var last=n1.charAt(n1.length-1);
+        var reverse1=n1.split("");
+        var reverse2=reverse1.reverse();
+        var reverse3=reverse2.join("");
+        var splitter=n1.split("");
+        var splitter2=splitter.join(" ");
+        var matches=n1.match("a");
+        var vow='aeiouAEIOU';
+        var count=0;
+        var pos=0;
+        for (pos=0; pos<n1.length; pos++) {
+            if (vow.indexOf(n1[pos]) !==-1) {
+                count++
+            }
+        }
+        document.write("La midad de la palabra es "+slicer);
+        document.write('<br>');
+        document.write('<br>');
+        document.write(" El ultimo caracter es " +last);
+        document.write('<br>');
+        document.write('<br>');
+        document.write("Al reves es " +reverse3);
+        document.write('<br>');
+        document.write('<br>');
+        document.write("Separadas es " +splitter2);
+        document.write('<br>');
+        document.write('<br>');
+        document.write("Las vocales de la palabra son " +count);
+    </script>
+</body>
+</html>
