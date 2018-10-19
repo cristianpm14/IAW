@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-20</title>
+</head>
+<body>
+    <script>
+        function con() {
+            var con1=document.getElementById("p").value;
+            var con2=document.getElementById("p2").value;
+            if (con1==con2){
+                alert("Esta verificada la contraseña")
+            }
+            else {
+                alert("No coinciden las contraseñas.")
+            }
+        }
+    </script>
+    <form>
+        Entrar contraseña: <input type="password" id="p"><br>
+        Verificar contraseña: <input type="password" id="p2"><br>
+        <input type="button" value="Entrar" onclick="con()">
+    </form>
+</body>
+</html>
