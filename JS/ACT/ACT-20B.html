@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-20</title>
+</head>
+<body>
+<script>
+    function num() {
+        var num1=document.getElementById("n1").value;
+        var num2=document.getElementById("n2").value;
+        if (num1>num2) {
+            alert("Numero " + num1 + " es mas grande");
+        }
+        else
+            alert("Numero "+num2+" es mas grande")
+    }
+</script>
+<form>
+    Entra numero 1: <input type="text" id="n1"><br>
+    Entra numero 2: <input type="text" id="n2"><br>
+    <input type="button" value="Entrar" onclick="num()">
+</form>
+</body>
+</html>
