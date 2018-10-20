@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-22</title>
+</head>
+<body>
+    <script>
+        function pre() {
+            var opcion=document.getElementById("pizzas");
+            var c=parseInt(document.getElementById("cantidad").value);
+            var n=parseInt(opcion.options[opcion.selectedIndex].value);
+            var x=parseInt(c*n);
+            document.getElementById('text').value=x;
+        }
+    </script>
+    <select id="pizzas">
+        <option>Selecciona</option>
+        <option value="6">Pepperoni</option>
+        <option value="5">Quatro Formaggi</option>
+        <option value="4">Procciuto</option>
+    </select><br>
+    Indica cuantas quieres: <input type="text" id="cantidad"><br/>
+    Precio Total:<input type="text" id="text"><br>
+    <button onClick="pre()">Precio</button>
+</body>
+</html>

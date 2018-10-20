@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-22</title>
+</head>
+<body>
+    <script>
+        function preg() {
+            var q1=document.getElementById("n1");
+            var p1=parseFloat(q1.options[q1.selectedIndex].value);
+            var q2=document.getElementById("n2");
+            var p2=parseFloat(q2.options[q2.selectedIndex].value);
+            var q3=document.getElementById("n3");
+            var p3=parseFloat(q3.options[q3.selectedIndex].value);
+            var q4=document.getElementById("n4");
+            var p4=parseFloat(q4.options[q4.selectedIndex].value);
+            var x=parseInt(p1+p2+p3+p4);
+            document.getElementById("text").value=x;
+        }
+    </script>
+    <p>Cuantas horas hay de clase</p>
+    <select id="n1">
+        <option>Selecciona</option>
+        <option value="0">4</option>
+        <option value="0">7</option>
+        <option value="2.5">6</option>
+    </select><br>
+    <p>En que isla estamos</p>
+    <select id="n2">
+        <option>Selecciona</option>
+        <option value="2.5">Mallorca</option>
+        <option value="0">Menorca</option>
+        <option value="0">Ibiza</option>
+    </select><br>
+    <p>Cuantos somos en clase</p>
+    <select id="n3">
+        <option>Selecciona</option>
+        <option value="2.5">10</option>
+        <option value="0">5</option>
+        <option value="0">7</option>
+    </select><br>
+    <p>Que curso hacemos</p>
+    <select id="n4">
+        <option>Selecciona</option>
+        <option value="0">2ª DAW</option>
+        <option value="2.5">2º ASIX</option>
+        <option value="0">1º ASIX</option>
+    </select><br><br>
+    Nota Total:<input type="text" id="text"><br>
+    <button onClick="preg()">Nota</button>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-22</title>
+</head>
+<body>
+    <script>
+        function p() {
+            var op=document.getElementById("pizzas");
+            document.getElementById("t").value=op.options[op.selectedIndex].value;
+        }
+    </script>
+    <form>
+        <select id="pizzas" onChange="p()">
+            <option value="0">Selecciona</option>
+            <option value="6 euros">Pepperoni</option>
+            <option value="5 euros">Quatro Formaggi</option>
+            <option value="4 euros">Procciuto</option>
+        </select><br>
+        Precio:<input type="text" id="t">
+    </form>
+</body>
+</html>

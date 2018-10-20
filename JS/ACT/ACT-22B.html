@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-22</title>
+</head>
+<body>
+    <script>
+        function cal() {
+            var p1=document.getElementById("pro");
+            var p=parseInt(p1.options[p1.selectedIndex].value);
+            var m1=document.getElementById("mon");
+            var m=parseInt(m1.options[m1.selectedIndex].value);
+            var h1=document.getElementById("hard");
+            var h=parseInt(h1.options[h1.selectedIndex].value);
+            var x=parseInt(p+m+h);
+            document.getElementById("t").value=x;
+        }
+    </script>
+
+    <select id="pro">
+        <option value="400">Intel I3</option>
+        <option value="600">Intel I5</option>
+        <option value="800">Intel I7</option>
+    </select><br>
+    <select id="mon">
+        <option value="250">Samsung 20'</option>
+        <option value="350">Samsung 22'</option>
+        <option value="550">Samsung 26'</option>
+    </select><br>
+    <select id="hard">
+        <option value="300">500 Gb</option>
+        <option value="440">1 Tb</option>
+        <option value="500">3 Tb</option>
+    </select><br>
+    <button onClick="cal()">Calcular</button>
+
+    Precio Total:<input type="text" id="t"><br>
+</body>
+</html>
