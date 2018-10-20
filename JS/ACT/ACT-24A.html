@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-24</title>
+</head>
+<body>
+    <script>
+        function edad() {
+            if (document.getElementById("r1").checked) {
+                alert("Eres mayor de edad, puedes entrar al sitio");
+            }
+            if (document.getElementById("r2").checked) {
+                alert("Eres menor, no se te permite el acceso");
+            }
+        }
+    </script>
+    <form>
+        <input type="radio" id="r1" name="A">Mas viejo que 18 <br/>
+        <input type="radio" id="r2" name="B">Menor que 18 <br/>
+        <input type="button" value="Permiso" onClick="edad()">
+    </form>
+</body>
+</html>
