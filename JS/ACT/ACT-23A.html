@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-23</title>
+</head>
+<body>
+    <script>
+        function depo() {
+            var x="";
+            if (document.getElementById("che1").checked) {
+                x += "Football,";
+            }
+            if (document.getElementById("che2").checked) {
+                x += "Tennis,";
+            }
+            if (document.getElementById("che3").checked) {
+                x += "Karate,";
+            }
+            alert("Deportes seleccionados: " + x);
+        }
+    </script>
+    <form>
+        <input type="checkbox" id="checkbox1">Football<br>
+        <input type="checkbox" id="checkbox2">Tennis<br>
+        <input type="checkbox" id="checkbox3">Karate<br>
+        <input type="button" value="Entrar" onClick="depo()">
+    </form>
+</body>
+</html>

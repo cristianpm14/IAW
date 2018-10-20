@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f40981a-2560-42c4-bece-f0658efb959c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/ACT/ACT-22A.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/ACT/ACT-22B.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/ACT/ACT-22C.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/ACT/ACT-22D.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/ACT/ACT-23A.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/ACT/ACT-24A.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/ACT/ACT-25A.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,22 +32,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="113" />
+          <entry key="html" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="113" />
+          <entry key="HTML" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="13263" />
+          <entry key="html" value="13420" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="13263" />
+          <entry key="HTML" value="13420" />
         </counts>
       </usages-collector>
     </session>
@@ -56,37 +55,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-22A.html">
+        <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-23A.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="442">
+              <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-22B.html">
+        <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-24A.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-22C.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="221">
+              <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-22D.html">
+        <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-25A.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="119">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -106,9 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS/ACT/ACT-9B.html" />
-        <option value="$PROJECT_DIR$/JS/ACT/ACT-9C.html" />
-        <option value="$PROJECT_DIR$/JS/ACT/ACT-9D.html" />
         <option value="$PROJECT_DIR$/JS/ACT/ACT-10A.html" />
         <option value="$PROJECT_DIR$/JS/ACT/ACT-10B.html" />
         <option value="$PROJECT_DIR$/JS/ACT/ACT-10C.html" />
@@ -157,6 +144,9 @@
         <option value="$PROJECT_DIR$/JS/ACT/ACT-22A.html" />
         <option value="$PROJECT_DIR$/JS/ACT/ACT-22C.html" />
         <option value="$PROJECT_DIR$/JS/ACT/ACT-22D.html" />
+        <option value="$PROJECT_DIR$/JS/ACT/ACT-23A.html" />
+        <option value="$PROJECT_DIR$/JS/ACT/ACT-24A.html" />
+        <option value="$PROJECT_DIR$/JS/ACT/ACT-25A.html" />
       </list>
     </option>
   </component>
@@ -244,12 +234,12 @@
       <workItem from="1539701424628" duration="8392000" />
       <workItem from="1539798779310" duration="8000" />
       <workItem from="1539977904236" duration="6331000" />
-      <workItem from="1540022825523" duration="2424000" />
+      <workItem from="1540022825523" duration="3251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86796000" />
+    <option name="totallyTimeSpent" value="87623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -281,27 +271,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-6D.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-11A.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-11B.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-12G.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -614,7 +583,28 @@
     <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-22D.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-23A.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-24A.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/ACT/ACT-25A.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
