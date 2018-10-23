@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-26</title>
+</head>
+<body>
+    <script>
+        function contra(cont) {
+            if (cont.value.length<7 || cont.value.length>20)
+                alert("No cumple con los requisitos.")
+        }
+    </script>
+    Usuario: <input type="text" id="usu"><br>
+    Contraseña: <input type="password" id="cont"><br>
+    <input type="button" onfocus="contra(cont)" value="Entrar">
+</body>
+</html>
