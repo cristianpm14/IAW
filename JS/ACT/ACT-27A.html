@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-27</title>
+</head>
+<body>
+    <script>
+        function paint(color,fil) {
+            color.bgColor=fil;
+        }
+    </script>
+    <table border="1">
+            <tr onMouseOver="paint(this,'#ff0000')" onMouseOut="paint(this,'#ffffff')">
+                <td>primero</td>
+                <td>segundo</td>
+            </tr>
+            <tr onMouseOver="paint(this,'#00ff00')" onMouseOut="paint(this,'#ffffff')">
+                <td>primero</td>
+                <td>segundo</td>
+            </tr>
+            <tr onMouseOver="paint(this,'#0000ff')" onMouseOut="paint(this,'#ffffff')">
+                <td>primero</td>
+                <td>segundo</td>
+            </tr>
+    </table>
+</body>
+</html>
