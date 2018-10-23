@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-30</title>
+</head>
+<body>
+    <script>
+        function paginas() {
+            var n1=Math.floor((Math.random()*3)+0);
+            if (n1==0){
+                window.location='https://www.google.com';
+            }
+            else if (n1==1){
+                window.location='https://es.yahoo.com';
+            }
+            else if (n1==2){
+                window.location='https://www.bing.com/?setlang=es';
+            }
+        }
+    </script>
+    <a href="javascript:paginas()">Entra</a>
+</body>
+</html>
