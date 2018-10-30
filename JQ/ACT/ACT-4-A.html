@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-4</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<table id="t1" border="1">
+    <tr>
+        <td>fila 1</td>
+    </tr>
+    <tr>
+        <td>fila 2</td>
+    </tr>
+    <tr>
+        <td>fila 3</td>
+    </tr>
+</table>
+<br>
+<table id="t2" border="1">
+    <tr>
+        <td>fila 1</td>
+    </tr>
+    <tr>
+        <td>fila 2</td>
+    </tr>
+    <tr>
+        <td>fila 3</td>
+    </tr>
+</table>
+<script>
+    $(document).ready(function() {
+        $("#t1 tr").click(function() {
+            $(this).css("background-color","red");
+        });
+        $("#t2 tr").click(function() {
+            $(this).css("font-size","50px")
+        })
+    })
+</script>
+</body>
+</html>

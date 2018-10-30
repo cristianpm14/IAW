@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-5</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<h1>h1 primero</h1>
+<p>p segundo</p>
+<h1>h1 tercero</h1>
+<p>p cuarto</p>
+<h1>h1 quinto</h1>
+<button id="b1">click 10px</button>
+<button id="b2">click 15px</button>
+<button id="b3">click 20px</button>
+<script>
+    $(document).ready(function() {
+        $("#b1").click(function() {
+            $("h1,p:odd").css("font-size","10px");
+        });
+        $("#b2").click(function() {
+            $("h1,p:odd").css("font-size","15px")
+        });
+        $("#b3").click(function() {
+            $("h1,p:odd").css("font-size","20px")
+        });
+    })
+</script>
+</body>
+</html>
