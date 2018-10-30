@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TAct-6</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<table id="t1" border="1">
+    <tr>
+        <td>OFF</td>
+        <td>OFF</td>
+        <td>OFF</td>
+    </tr>
+    <tr>
+        <td>OFF</td>
+        <td>OFF</td>
+        <td>OFF</td>
+    </tr>
+    <tr>
+        <td>OFF</td>
+        <td>OFF</td>
+        <td>OFF</td>
+    </tr>
+</table>
+<br>
+<table border="1">
+    <tr>
+        <td>OFF</td>
+        <td>OFF</td>
+        <td>OFF</td>
+    </tr>
+    <tr>
+        <td>OFF</td>
+        <td>OFF</td>
+        <td>OFF</td>
+    </tr>
+    <tr>
+        <td>OFF</td>
+        <td>OFF</td>
+        <td>OFF</td>
+    </tr>
+</table>
+<button id="b1">Clic on</button>
+<script>
+    $(document).ready(function() {
+        $("#b1").click(function() {
+            $("#t1 td").text("ON");
+        });
+    })
+</script>
+</body>
+</html>
