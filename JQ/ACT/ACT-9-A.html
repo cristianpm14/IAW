@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-9</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<button id="b1">head</button><br>
+<button id="b2">body</button>
+<script>
+    $("#b1").click(function(){
+        alert($("head").html());
+    });
+    $("#b2").click(function(){
+        alert($("body").html());
+    });
+</script>
+</body>
+</html>
