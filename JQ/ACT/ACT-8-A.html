@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-8</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+    <style>
+        .family {
+            font-family: Calibri;
+        }
+        .color {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>
+                    fila 1
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    fila 2
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="b1">vincula</button><br>
+    <button id="b2">desvincula</button>
+<script>
+    $("#b1").click(function(){
+        $("thead,tbody").addClass("family color");
+    });
+    $("#b2").click(function(){
+        $("thead,tbody").removeClass("family color");
+    });
+</script>
+</body>
+</html>
