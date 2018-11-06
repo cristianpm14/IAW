@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-11</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<table id="t1" border="1">
+    <tr>
+        <td>fila 1</td>
+        <td>fila 1</td>
+    </tr>
+    <tr>
+        <td>fila 2</td>
+        <td>fila 2</td>
+    </tr>
+    <tr>
+        <td>fila 3</td>
+        <td>fila 3</td>
+    </tr>
+    <script>
+        $("td").mouseover(function() {
+            $(this).css("background-color","green");
+        });
+        $("td").mouseout(function () {
+            $(this).css("background-color","#fff");
+        })
+    </script>
+</table>
+
+</body>
+</html>
