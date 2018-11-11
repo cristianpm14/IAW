@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-14</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<button id="b1">head</button><br>
+<button id="b2">body</button>
+<script>
+    $("#b1").mousedown(function(){
+        $(this).css("background-color","#548");
+    });
+    $("#b1").mouseup(function(){
+        $(this).css("background-color","");
+    });
+    $("#b2").mousedown(function(){
+        $(this).css("background-color","#151");
+    });
+    $("#b2").mouseup(function(){
+        $(this).css("background-color","");
+    });
+</script>
+</body>
+</html>
