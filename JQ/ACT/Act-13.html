@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-13</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+    <style>
+        #d1 {
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+<div id="d1">
+</div>
+<script>
+    $("#d1").mousemove(function (event) {
+        $(this).text("x:"+event.clientX+", y"+event.clientY);
+    });
+    $("#d1").mouseleave(function () {
+        alert("Estas fuera");
+    })
+</script>
+</body>
+</html>
