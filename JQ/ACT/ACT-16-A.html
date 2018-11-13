@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-16</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<form>
+<input type="text" id="i1" style="color: blue">
+<input type="text" id="i2" style="color: blue">
+</form>
+<script>
+    $(document).ready(function() {
+        var x=$("input");
+        x.focus(function () {
+            $(this).css("color","red");
+        });
+        x.blur(function () {
+            $(this).css("color","blue");
+        });
+    });
+</script>
+</body>
+</html>
