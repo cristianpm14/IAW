@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-17</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<form>
+    <input type="text" id="i1">
+    <input type="text" id="i2">
+</form>
+<script>
+    $(document).ready(function() {
+        var x=$("input");
+        x.blur(function () {
+            var v =$(this).val();
+            if (v == ""){
+                alert("Vacio")
+            }
+        });
+    });
+</script>
+</body>
+</html>
