@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-23</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<ul>
+    <li><a href="www.google.es">www.google.es</a></li>
+    <li><a href="www.khworld.org">www.khworld.org</a></li>
+    <li><a href="www.elwiki.net">www.elwiki.net</a></li>
+    <li><a href="www.game.es">www.game.es</a></li>
+    <li><a href="www.facebook.es">www.facebook.es</a></li>
+</ul>
+<script>
+    var i;
+    i=$(document);
+    i.ready(enlace);
+    function enlace() {
+        var a;
+        a=$("ul li a");
+        a.each(marca);
+    }
+    function marca() {
+        var m=$(this);
+        var m1 = m.attr("href");
+        var m2 = m1.indexOf(".es");
+        if (m2>-1) {
+            m.css("background-color", "aqua");
+        }
+    }
+</script>
+</body>
+</html>
