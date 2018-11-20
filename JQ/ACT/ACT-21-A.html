@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-21</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div>
+    <p>parrafo 1</p>
+    <p>parrafo 2</p>
+    <p>parrafo 3</p>
+</div>
+<script>
+    $(document).ready(function () {
+        $("div").click(function () {
+            $(this).fadeTo(1000, 0.20, dobleclick);
+        });
+        function dobleclick() {
+            $("div").dblclick(function () {
+                $(this).fadeTo(1000, 1);
+            });
+        }
+    })
+</script>
+</body>
+</html>
