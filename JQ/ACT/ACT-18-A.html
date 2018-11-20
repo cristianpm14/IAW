@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-18</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<form>
+
+</form>
+<button id="b1" onclick="add()">Crear</button>
+<script>
+    function add() {
+            $("form").append("<div></div>");
+            $("div").last().append("<br>","<input type='text'>"," ","<button onclick='remove(this)'>Eliminar</button>","<br>");
+        };
+    function remove(element) {
+        $(element).closest('div').remove();
+    };
+</script>
+</body>
+</html>
