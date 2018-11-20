@@ -17,15 +17,14 @@
 <body>
 <table style="width: 30px">
     <tr>
-        <th><img id="1" src="sin.png" alt="sincorazon"><button onclick="visible('#1')">AHORA</button></th>
-        <td><img id="2" src="in.jpg" alt="incorporeo"><button onclick="visible('#2')">AHORA</button></td>
+        <th><img id="1" src="sin.png" alt="sincorazon"><button onclick="v('#1')">AHORA</button></th>
+        <td><img id="2" src="in.jpg" alt="incorporeo"><button onclick="v('#2')">AHORA</button></td>
     </tr>
 </table>
 <script>
-    function visible(x) {
-        $(x).toggle("slow");
+    function v(i) {
+        $(i).toggle("slow");
     }
-
 </script>
 </body>
 </html>
