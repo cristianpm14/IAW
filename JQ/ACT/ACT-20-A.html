@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-20</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div style="background-color: blue">primer div jojojo</div>
+<div style="background-color: aqua">segundo div jujuju</div>
+<script>
+    $(document).ready(function () {
+        $("div").click(function () {
+            $(this).fadeOut("slow", div2);
+        });
+        function div2(){
+            $("div").last().fadeIn(3000);
+        };
+        $("div").last().hide();
+    });
+</script>
+</body>
+</html>
