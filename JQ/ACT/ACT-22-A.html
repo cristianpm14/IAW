@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-22</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+    <style>
+        table, th, td {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<table style="width: 30px">
+    <tr>
+        <th><img id="1" src="sin.png" alt="sincorazon"><button onclick="visible('#1')">AHORA</button></th>
+        <td><img id="2" src="in.jpg" alt="incorporeo"><button onclick="visible('#2')">AHORA</button></td>
+    </tr>
+</table>
+<script>
+    function visible(x) {
+        $(x).toggle("slow");
+    }
+
+</script>
+</body>
+</html>
