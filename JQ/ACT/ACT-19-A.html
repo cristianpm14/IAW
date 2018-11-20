@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act-19</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div>
+    <p>parrafo 1</p>
+    <p>parrafo 2</p>
+    <p>parrafo 3</p>
+</div>
+<p>Viva España</p>
+<script>
+
+    $(document).ready(function () {
+        $("div").click(function () {
+            $(this).animate({height: 'toggle'}, 5000, muestrap);
+        });
+        function muestrap(){
+            $("p").last().show("slow");
+        }
+        $("p").last().hide();
+    });
+</script>
+</body>
+</html>
